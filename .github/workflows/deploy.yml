@@ -25,7 +25,7 @@ jobs:
     steps:
       # Checkout the repository code
       - name: 🛎️ Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Log in to Docker Hub using secrets for authentication
       - name: 🔑 Log in to Docker Hub
